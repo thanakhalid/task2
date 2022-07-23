@@ -31,6 +31,7 @@ $catkin_make
 $sudo sh install.sh
 
 now here's a screenshoot of the software:
+![1](Screenshot 2022-07-20 072931.png)
 
 
 
@@ -61,6 +62,7 @@ $cd sketchbook/arduino
 find the ttyUSB0 or ttyACM0 in the list, to make sure to change the port permission before uploading the Arduino code 
 $ sudo chmod 777 /dev/ttyUSB0
 after that i checked the code to make sure the IDE is working,here is a picture 
+![2](Screenshot 2022-07-23 203015.png)
 
 LASTLY, the rest of steps we need the arm (hardware) so we can control it useing different methods so here's codes copied from github:
 Controlling the robot arm by joint_state_publisher
